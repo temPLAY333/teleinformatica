@@ -88,6 +88,7 @@ spec:
           name: config-volume
 
 ---
+
 apiVersion: v1
 kind: Service
 metadata:
@@ -99,4 +100,3 @@ spec:
       targetPort: 3000 
   selector:
     app: metabase
-
