@@ -40,7 +40,7 @@ spec:
         - name: "sqldump-download"
           image: "alpine:latest"
           imagePullPolicy: "IfNotPresent"
-          command: ["sh", "-c", "wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=1VVff51xU-8DDMSFq9HeRD3uhhHAuu1gQ' -O /sqldump/google-mobility.sql"]
+          command: ["sh", "-c", "wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=1txlbfsfYi-lH5GAVkU1XG0RL2e4nmZS0' -O /sqldump/google-mobility.sql"]
           volumeMounts:
             - name: sql-dump-volume
               mountPath: "/sqldump"

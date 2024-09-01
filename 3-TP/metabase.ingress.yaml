@@ -7,7 +7,7 @@ metadata:
   name: metabase-ingress 
 spec:
   rules:
-  - host: ignacio-chaves-web.my.kube.um.edu.ar
+  - host: tomas-bourguet-web.my.kube.um.edu.ar
     http:
       paths:
       - backend:
